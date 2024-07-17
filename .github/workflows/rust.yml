@@ -1,6 +1,7 @@
 name: Compile and Deploy Website
 
 on:
+  workflow_dispatch:
   push:
     # paths:
     #   - "static/**"
